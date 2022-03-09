@@ -11,12 +11,17 @@
 
   transition: filter 0.2s;
 
-
   cursor: pointer;
   border: 0;
 
   img {
     margin-right: 8px;
+  }
+
+  &.outlined {
+    background: #fff;
+    border: 1px solid #8351fd;
+    color: #8351fd;
   }
 
   &:not(:disabled):hover {
